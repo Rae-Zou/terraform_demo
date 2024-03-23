@@ -19,4 +19,5 @@ Use Case: Helm is focused on the **application layer**. Once you have a Kubernet
 In practice, Terraform and Helm are often used together in a complementary fashion:
 
 Infrastructure Provisioning: Use Terraform to provision and manage the Kubernetes cluster and any related cloud infrastructure (like networks, security rules, etc.).
+
 Application Deployment: Once the infrastructure is ready, use Helm to deploy, manage, and upgrade applications on the Kubernetes cluster.
